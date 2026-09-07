@@ -8,7 +8,7 @@ La página debe presentar la empresa, mostrar sus principales categorías de pro
 
 La página será una **single-page** accesible desde `/`. No se crearán páginas adicionales como `/productos`, `/servicios` o `/proyectos` en esta especificación.
 
-La empresa ficticia se llamará temporalmente **AluNova**.
+La empresa se llama **SF Aberturas**.
 
 ## 2. Usuario
 
@@ -24,7 +24,7 @@ La página principal debe contener las siguientes secciones, en este orden:
 
 Debe contener:
 
-- Logo o nombre de la empresa (AluNova).
+- Logo o nombre de la empresa (SF Aberturas).
 - Enlace a Inicio (`#inicio`).
 - Enlace a Productos (`#productos`).
 - Enlace a Servicios (`#servicios`).
@@ -40,7 +40,7 @@ En dispositivos móviles, el menú debe adaptarse a un menú desplegable (hambur
 
 Debe presentar:
 
-- Título principal relacionado con aberturas de aluminio y vidrio (AluNova).
+- Título principal relacionado con aberturas de aluminio y vidrio (SF Aberturas).
 - Texto breve describiendo los servicios de la empresa.
 - Imagen representativa ubicada en `public/img/` y renderizada con `next/image`.
 - Botón "Solicitar presupuesto" que dirige a `#contacto`.
@@ -108,11 +108,11 @@ La sección de contacto/CTA corresponde al anchor `#contacto`.
 
 Debe contener:
 
-- Nombre de la empresa (AluNova).
+- Nombre de la empresa (SF Aberturas).
 - Información de contacto con placeholders orientados a Paraguay:
   - Teléfono: `+595 981 000 000`
-  - Correo electrónico: `contacto@alunova.com.py`
-  - Dirección: `Asunción, Paraguay`
+  - Correo electrónico: `contacto@sfaberturas.com.py`
+  - Dirección: `Encarnación, Paraguay`
 - Enlaces de navegación (anchors a `#inicio`, `#productos`, `#servicios`, `#proyectos`, `#contacto`).
 - Redes sociales (placeholders sin URLs reales en esta etapa).
 
@@ -134,7 +134,7 @@ Debe contener:
 - Utilizar TypeScript.
 - Utilizar componentes reutilizables cuando corresponda.
 - Utilizar `next/image` para todas las imágenes.
-- Actualizar los metadatos de Next.js en `app/layout.tsx` para utilizar el nombre y descripción de AluNova en lugar de "Create Next App" (ej. `title: "AluNova — Aberturas de Aluminio y Vidrio"`, `description` acorde).
+- Actualizar los metadatos de Next.js en `app/layout.tsx` para utilizar el nombre y descripción de SF Aberturas en lugar de "Create Next App" (ej. `title: "SF Aberturas — Aberturas de Aluminio y Vidrio"`, `description` acorde).
 - No agregar dependencias externas sin justificar su necesidad. Mantener las dependencias actuales del proyecto.
 - No implementar todavía base de datos, autenticación, backend ni formulario funcional.
 - No implementar el formulario funcional de presupuesto en esta etapa; los botones "Solicitar presupuesto" dirigen a `#contacto`.
@@ -149,7 +149,7 @@ Debe contener:
 - La sección Servicios muestra los cuatro servicios en grilla de cuatro tarjetas.
 - La sección Proyectos muestra una grilla estática de 6 imágenes sin carrusel/lightbox.
 - La página es usable en escritorio, tablet y dispositivos móviles (menú desplegable funcional).
-- El idioma del HTML es `es` y los metadatos reflejan AluNova.
+- El idioma del HTML es `es` y los metadatos reflejan SF Aberturas.
 - Las imágenes provienen de `public/img/` y usan `next/image` sin deformaciones ni desbordamientos.
 - No existen errores de TypeScript o ESLint.
 - Los botones y enlaces principales son claramente identificables.
